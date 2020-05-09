@@ -10,7 +10,7 @@ app.use(express.static('public'));
 app.set('view engine', 'html');
 
 app.get('/', (req, res, next) => {
-    res.render('./index');
+    res.render('/index');
 });
 
 io.on('connection',(socket) => {
