@@ -1,0 +1,29 @@
+{
+  "name": "akamaicollector",
+  "version": "1.0.0",
+  "description": "Collect user browser tingz",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HypePhilosophy/AkamaiCollector.git"
+  },
+  "keywords": [
+    "Akamai",
+    "Collector"
+  ],
+  "author": "HypePhilosophy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HypePhilosophy/AkamaiCollector/issues"
+  },
+  "homepage": "https://github.com/HypePhilosophy/AkamaiCollector#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "socket.io": "^2.3.0"
+  }
+}
