@@ -1,1 +1,1 @@
-# AkamaiCollector
+# KiloCollector
