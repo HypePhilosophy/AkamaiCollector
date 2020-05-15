@@ -1104,7 +1104,7 @@ if (function (a) {
     bmak.listFunctions._setJsPost(1);
     //bmak.listFunctions._setDisFpCalOnTimeout(1);
     bmak.listFunctions._setInitTime(Date.now());
-    bmak.listFunctions._setAu('https://agile-caverns-58354.herokuapp.com/collector/akamai/site/sensor_data');
+    bmak.listFunctions._setAu('https://agile-caverns-58354.herokuapp.com/collector/akamai/kilo');
 
     bmak.sd_debug("<setSDFN>" + bmak.sdfn.join() + "</setSDFN>"), _cf = {
         push: bmak.applyFunc
