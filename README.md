@@ -5,4 +5,15 @@ Akamai Collector is an open sourced application that can be placed on any websit
 1. Clone the repository
 2. Download the necessary npm packages
 3. Navigate to `/public/akamai.js` and edit line 1109 to your own database url.
-4. Inf
+
+## Payload
+Formdata will be sent as separate parameters. It is your responsibility to filter the response.
+
+Example Payload:
+```
+s: d6jeqm4qgknkiuvsl0k
+d: 7a74G7m23Vrp0o5c9119641.54-1,2,-94,-100,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36,uaend,12147,20030107,en-US,Gecko,4,0,0,0,395726,0,1920,1040,1920,1080,1328,937,1920,,cpen:0,i1:0,dm:0,cwen:0,non:1,opc:0,fc:0,sc:0,wrc:1,isc:0,vib:1,bat:1,x11:0,x12:1,8286,0.633959929316,804166375474,loc:-1,2,-94,-101,do_en,dm_en,t_en-1,2,-94,-105,-1,2,-94,-102,-1,2,-94,-108,-1,2,-94,-110,-1,2,-94,-117,-1,2,-94,-111,-1,2,-94,-109,-1,2,-94,-114,-1,2,-94,-103,-1,2,-94,-112,https://whateverwebsite.com/-1,2,-94,-115,1,32,32,0,0,0,0,1,1608332750948,1608332750948,-999999,17205,0,0,2867,0,0,3,0,0,071F4459EDD5674624062926B1318F1C~-1~YAAQNgbYF8YCi3VxAQAA6K5FgwOwQCMJFUQZXWWwgiB76VOu+AAxHPwmzr6UudenJpzr0mLotmdhVnaKYUlNvs+KzxR0PY3aCDXMq6b1uHFzh1NtoxaVO/S2y56AMSc/TUeMkK9eupmwCAKe777aslXBcQmFzhCpvnObTYj9y0Mmeq0tlGJmlkb9fRs5IQBZTCNm5xwNIr+m2pc2gcbaGjSfX4qhEfAK2b1QjfSieW5Kf5LavNv3ZFSE/+x0J5X0MZ+GqobWmmYYTiVPHsGYdNYcFmjBdxg9+HoVceqRnUImH+NmQv5Z/Pd+jF+fEZ2n0hbnrjzAXAD4ROAR7Na/w4q5EWTBeoPVDbc=~-1~||1-rJCeXCPFwL-2500-100-3000-2||~-1,35411,-1,-1,30261693-1,2,-94,-106,0,0-1,2,-94,-119,-1-1,2,-94,-122,0,0,0,0,1,0,0-1,2,-94,-123,-1,2,-94,-124,-1,2,-94,-126,-1,2,-94,-127,-1,2,-94,-70,-1-1,2,-94,-80,94-1,2,-94,-116,-654321-1,2,-94,-118,79682-1,2,-94,-121,;4;-1;0
+```
+
+## Reflections
+This tool is only meant for the research of Akamai Anti-bot version 1.54. I believe it is pertinent to understand what type of data is being sent and stored by client-based anti-bot systems, and as such, this is only meant to understand what type of data Akamai uses and stores.
